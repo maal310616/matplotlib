@@ -8,4 +8,7 @@ def get_mood_color(avg):
     if avg < 4:
         return 'red'
     elif avg <= 7:
-        
+         return 'orange'
+    else:
+        return 'green'
+    
