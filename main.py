@@ -4,11 +4,10 @@ import csv
 import os
 
 
-def get_mood_color(avg):
-    if avg < 4:
+def noteikt_krasu(vid):
+    if vid < 4:
         return 'red'
-    elif avg <= 7:
-         return 'orange'
+    elif vid <= 7:
+        return 'orange'
     else:
         return 'green'
-    
