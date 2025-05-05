@@ -3,7 +3,7 @@ import datetime
 import csv
 import os
 
-v 
+
 
 def noteikt_krasu(vid):
     if vid < 4:
@@ -44,7 +44,7 @@ def saglaba_csv(dienas, garastavokli, fails="garastavokli.csv"):
             rakstitajs.writerow([d, g])
     print(f"Dati saglabāti kā '{fails}'")
 
-# Funkcija: nolasīt datus no CSV
+
 def nolasit_no_csv(fails="garastavokli.csv"):
     garastavokli = []
     try:
