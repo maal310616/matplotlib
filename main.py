@@ -20,4 +20,8 @@ def zime_grafiku(garastavokli, saglabat_attelu=False):
     plt.plot(dienas, garastavokli, marker='o', linestyle='-', color=krasa)
     plt.title('Mans garastāvokļa grafiks')
     plt.xlabel('Nedēļas dienas')
+    plt.ylabel('Garastāvoklis (1–10)')
+    plt.ylim(1, 10)
+    plt.grid(True)
+
     
