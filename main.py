@@ -29,3 +29,6 @@ def zime_grafiku(garastavokli, saglabat_attelu=False):
         faila_nosaukums = f"garastavokla_grafiks_{sodiena}.png"
         plt.savefig(faila_nosaukums)
         print(f"Grafiks saglabāts kā '{faila_nosaukums}'")
+    else:
+        plt.show()
+        
