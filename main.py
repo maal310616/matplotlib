@@ -31,4 +31,12 @@ def zime_grafiku(garastavokli, saglabat_attelu=False):
         print(f"Grafiks saglabāts kā '{faila_nosaukums}'")
     else:
         plt.show()
-        
+
+def saglaba_csv(dienas, garastavokli, fails="garastavokli.csv"):
+    with open(fails, mode='w', newline='', encoding='utf-8') as f:
+        rakstitajs = csv.writer(f)
+        rakstitajs.writerow(["Diena", "Garastāvoklis"])
+        for d, g in zip(dienas, garastavokli):
+            rakstitajs.writerow([d, g])
+    print(f"Dati saglabāti kā '{fails}'")
+    
