@@ -3,8 +3,6 @@ import datetime
 import csv
 import os
 
-
-
 def noteikt_krasu(vid):
     if vid < 4:
         return 'red'
