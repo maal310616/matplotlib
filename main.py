@@ -24,4 +24,8 @@ def zime_grafiku(garastavokli, saglabat_attelu=False):
     plt.ylim(1, 10)
     plt.grid(True)
 
-    
+    if saglabat_attelu:
+        sodiena = datetime.date.today().isoformat()
+        faila_nosaukums = f"garastavokla_grafiks_{sodiena}.png"
+        plt.savefig(faila_nosaukums)
+        print(f"Grafiks saglabāts kā '{faila_nosaukums}'")
