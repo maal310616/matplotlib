@@ -11,3 +11,6 @@ def noteikt_krasu(vid):
         return 'orange'
     else:
         return 'green'
+    
+def zime_grafiku(garastavokli, saglabat_attelu=False):
+    dienas = ['Pirmdiena', 'Otrdiena', 'Trešdiena', 'Ceturtdiena', 'Piektdiena', 'Sestdiena', 'Svētdiena']
