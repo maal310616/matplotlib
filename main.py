@@ -57,6 +57,7 @@ def nolasit_no_csv(fails="garastavokli.csv"):
         return None
 
 
+
 if __name__ == "__main__":
     dienas = ['Pirmdiena', 'Otrdiena', 'Trešdiena', 'Ceturtdiena', 'Piektdiena', 'Sestdiena', 'Svētdiena']
 
