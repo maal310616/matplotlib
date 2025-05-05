@@ -14,3 +14,5 @@ def noteikt_krasu(vid):
     
 def zime_grafiku(garastavokli, saglabat_attelu=False):
     dienas = ['Pirmdiena', 'Otrdiena', 'Trešdiena', 'Ceturtdiena', 'Piektdiena', 'Sestdiena', 'Svētdiena']
+    videjais = sum(garastavokli) / len(garastavokli)
+    krasa = noteikt_krasu(videjais)
