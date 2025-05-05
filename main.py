@@ -18,3 +18,6 @@ def zime_grafiku(garastavokli, saglabat_attelu=False):
     krasa = noteikt_krasu(videjais)
     plt.figure(figsize=(10, 5))
     plt.plot(dienas, garastavokli, marker='o', linestyle='-', color=krasa)
+    plt.title('Mans garastāvokļa grafiks')
+    plt.xlabel('Nedēļas dienas')
+    
