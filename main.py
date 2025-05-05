@@ -39,4 +39,6 @@ def saglaba_csv(dienas, garastavokli, fails="garastavokli.csv"):
         for d, g in zip(dienas, garastavokli):
             rakstitajs.writerow([d, g])
     print(f"Dati saglabāti kā '{fails}'")
-    
+
+    def nolasit_no_csv(fails="garastavokli.csv"):
+        garastavokli = []
